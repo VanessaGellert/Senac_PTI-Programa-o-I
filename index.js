@@ -1,6 +1,6 @@
 do {
-  
-  var gasolina = parseFloat(prompt('Digite o valor da Galosina'));
+
+  var gasolina = parseFloat(prompt('Digite o valor da Gasolina'));
   var alcool = parseFloat(prompt('Digite o valor do Álcool'));
   var media = alcool/gasolina
 
@@ -18,4 +18,6 @@ do {
   var continuar = (prompt('Deseja repetir o cálculo?\n s ou n'));
 
 } while (continuar == 's' )
+
+
 
